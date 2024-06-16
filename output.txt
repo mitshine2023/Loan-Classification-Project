@@ -1,0 +1,1014 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 41188 entries, 0 to 41187
+Data columns (total 60 columns):
+ #   Column                         Non-Null Count  Dtype
+---  ------                         --------------  -----
+ 0   age                            41188 non-null  int64
+ 1   campaign                       41188 non-null  int64
+ 2   pdays                          41188 non-null  int64
+ 3   previous                       41188 non-null  int64
+ 4   no_previous_contact            41188 non-null  int64
+ 5   not_working                    41188 non-null  int64
+ 6   job_admin.                     41188 non-null  int64
+ 7   job_blue-collar                41188 non-null  int64
+ 8   job_entrepreneur               41188 non-null  int64
+ 9   job_housemaid                  41188 non-null  int64
+ 10  job_management                 41188 non-null  int64
+ 11  job_retired                    41188 non-null  int64
+ 12  job_self-employed              41188 non-null  int64
+ 13  job_services                   41188 non-null  int64
+ 14  job_student                    41188 non-null  int64
+ 15  job_technician                 41188 non-null  int64
+ 16  job_unemployed                 41188 non-null  int64
+ 17  job_unknown                    41188 non-null  int64
+ 18  marital_divorced               41188 non-null  int64
+ 19  marital_married                41188 non-null  int64
+ 20  marital_single                 41188 non-null  int64
+ 21  marital_unknown                41188 non-null  int64
+ 22  education_basic.4y             41188 non-null  int64
+ 23  education_basic.6y             41188 non-null  int64
+ 24  education_basic.9y             41188 non-null  int64
+ 25  education_high.school          41188 non-null  int64
+ 26  education_illiterate           41188 non-null  int64
+ 27  education_professional.course  41188 non-null  int64
+ 28  education_university.degree    41188 non-null  int64
+ 29  education_unknown              41188 non-null  int64
+ 30  default_no                     41188 non-null  int64
+ 31  default_unknown                41188 non-null  int64
+ 32  default_yes                    41188 non-null  int64
+ 33  housing_no                     41188 non-null  int64
+ 34  housing_unknown                41188 non-null  int64
+ 35  housing_yes                    41188 non-null  int64
+ 36  loan_no                        41188 non-null  int64
+ 37  loan_unknown                   41188 non-null  int64
+ 38  loan_yes                       41188 non-null  int64
+ 39  contact_cellular               41188 non-null  int64
+ 40  contact_telephone              41188 non-null  int64
+ 41  month_apr                      41188 non-null  int64
+ 42  month_aug                      41188 non-null  int64
+ 43  month_dec                      41188 non-null  int64
+ 44  month_jul                      41188 non-null  int64
+ 45  month_jun                      41188 non-null  int64
+ 46  month_mar                      41188 non-null  int64
+ 47  month_may                      41188 non-null  int64
+ 48  month_nov                      41188 non-null  int64
+ 49  month_oct                      41188 non-null  int64
+ 50  month_sep                      41188 non-null  int64
+ 51  day_of_week_fri                41188 non-null  int64
+ 52  day_of_week_mon                41188 non-null  int64
+ 53  day_of_week_thu                41188 non-null  int64
+ 54  day_of_week_tue                41188 non-null  int64
+ 55  day_of_week_wed                41188 non-null  int64
+ 56  poutcome_failure               41188 non-null  int64
+ 57  poutcome_nonexistent           41188 non-null  int64
+ 58  poutcome_success               41188 non-null  int64
+ 59  Loan_Status_label              41188 non-null  int64
+dtypes: int64(60)
+memory usage: 18.9 MB
+88.73458288821988
+11.265417111780131
+0.17296299893172767
+0.9632174419733903
+0.08762260852675537
+age                                9.5
+campaign                          -2.0
+pdays                            999.0
+previous                           0.0
+no_previous_contact                1.0
+not_working                        0.0
+job_admin.                        -1.5
+job_blue-collar                    0.0
+job_entrepreneur                   0.0
+job_housemaid                      0.0
+job_management                     0.0
+job_retired                        0.0
+job_self-employed                  0.0
+job_services                       0.0
+job_student                        0.0
+job_technician                     0.0
+job_unemployed                     0.0
+job_unknown                        0.0
+marital_divorced                   0.0
+marital_married                   -1.5
+marital_single                    -1.5
+marital_unknown                    0.0
+education_basic.4y                 0.0
+education_basic.6y                 0.0
+education_basic.9y                 0.0
+education_high.school              0.0
+education_illiterate               0.0
+education_professional.course      0.0
+education_university.degree       -1.5
+education_unknown                  0.0
+default_no                         1.0
+default_unknown                    0.0
+default_yes                        0.0
+housing_no                        -1.5
+housing_unknown                    0.0
+housing_yes                       -1.5
+loan_no                            1.0
+loan_unknown                       0.0
+loan_yes                           0.0
+contact_cellular                  -1.5
+contact_telephone                 -1.5
+month_apr                          0.0
+month_aug                          0.0
+month_dec                          0.0
+month_jul                          0.0
+month_jun                          0.0
+month_mar                          0.0
+month_may                         -1.5
+month_nov                          0.0
+month_oct                          0.0
+month_sep                          0.0
+day_of_week_fri                    0.0
+day_of_week_mon                    0.0
+day_of_week_thu                    0.0
+day_of_week_tue                    0.0
+day_of_week_wed                    0.0
+poutcome_failure                   0.0
+poutcome_nonexistent               1.0
+poutcome_success                   0.0
+Loan_Status_label                  0.0
+dtype: float64
+
+
+age                               69.5
+campaign                           6.0
+pdays                            999.0
+previous                           0.0
+no_previous_contact                1.0
+not_working                        0.0
+job_admin.                         2.5
+job_blue-collar                    0.0
+job_entrepreneur                   0.0
+job_housemaid                      0.0
+job_management                     0.0
+job_retired                        0.0
+job_self-employed                  0.0
+job_services                       0.0
+job_student                        0.0
+job_technician                     0.0
+job_unemployed                     0.0
+job_unknown                        0.0
+marital_divorced                   0.0
+marital_married                    2.5
+marital_single                     2.5
+marital_unknown                    0.0
+education_basic.4y                 0.0
+education_basic.6y                 0.0
+education_basic.9y                 0.0
+education_high.school              0.0
+education_illiterate               0.0
+education_professional.course      0.0
+education_university.degree        2.5
+education_unknown                  0.0
+default_no                         1.0
+default_unknown                    0.0
+default_yes                        0.0
+housing_no                         2.5
+housing_unknown                    0.0
+housing_yes                        2.5
+loan_no                            1.0
+loan_unknown                       0.0
+loan_yes                           0.0
+contact_cellular                   2.5
+contact_telephone                  2.5
+month_apr                          0.0
+month_aug                          0.0
+month_dec                          0.0
+month_jul                          0.0
+month_jun                          0.0
+month_mar                          0.0
+month_may                          2.5
+month_nov                          0.0
+month_oct                          0.0
+month_sep                          0.0
+day_of_week_fri                    0.0
+day_of_week_mon                    0.0
+day_of_week_thu                    0.0
+day_of_week_tue                    0.0
+day_of_week_wed                    0.0
+poutcome_failure                   0.0
+poutcome_nonexistent               1.0
+poutcome_success                   0.0
+Loan_Status_label                  0.0
+dtype: float64
+X:         age  campaign  pdays  previous  ...  day_of_week_wed  poutcome_failure  poutcome_nonexistent  poutcome_success
+0       56         1    999         0  ...                0                 0                     1                 0
+1       57         1    999         0  ...                0                 0                     1                 0
+2       37         1    999         0  ...                0                 0                     1                 0
+3       40         1    999         0  ...                0                 0                     1                 0
+4       56         1    999         0  ...                0                 0                     1                 0
+...    ...       ...    ...       ...  ...              ...               ...                   ...               ...
+41183   73         1    999         0  ...                0                 0                     1                 0
+41184   46         1    999         0  ...                0                 0                     1                 0
+41185   56         2    999         0  ...                0                 0                     1                 0
+41186   44         1    999         0  ...                0                 0                     1                 0
+41187   74         3    999         1  ...                0                 1                     0                 0
+
+[41188 rows x 59 columns]
+y:  0        0
+1        0
+2        0
+3        0
+4        0
+        ..
+41183    1
+41184    0
+41185    0
+41186    1
+41187    0
+Name: Loan_Status_label, Length: 41188, dtype: int64
+(37069, 59) [[-1.72758640e+00 -5.65627936e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ [ 1.14704553e+00 -5.65627936e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ [ 6.67940207e-01  1.54030961e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ ...
+ [-4.81912564e-01 -5.65627936e-01 -5.15064604e+00 ... -3.41029002e-01
+  -2.50910564e+00  5.42303899e+00]
+ [-2.80724260e-03 -2.05798488e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ [-1.05683895e+00 -2.05798488e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]]
+(4119, 59) [[ 1.62615085 -0.56562794  0.19455728 ...  2.93230193 -2.50910564
+  -0.18439845]
+ [ 1.43450872 -0.20579849  0.19455728 ... -0.341029    0.39854839
+  -0.18439845]
+ [-0.67355469 -0.56562794  0.19455728 ...  2.93230193 -2.50910564
+  -0.18439845]
+ ...
+ [-0.19444937 -0.56562794  0.19455728 ... -0.341029    0.39854839
+  -0.18439845]
+ [-0.76937576 -0.20579849  0.19455728 ...  2.93230193 -2.50910564
+  -0.18439845]
+ [ 0.38047701 -0.56562794  0.19455728 ... -0.341029    0.39854839
+  -0.18439845]]
+Training Accuracy - 0.8965982357225715
+Test Accuracy     - 0.8977907259043457
+Training Accuracy - 0.8974345140144055
+Test Accuracy     - 0.8975479485311969
+Training Accuracy - 0.8994577679462624
+Test Accuracy     - 0.8973051711580481
+Training Accuracy - 0.8994577679462624
+Test Accuracy     - 0.8973051711580481
+Training Accuracy - 0.8983247457444226
+Test Accuracy     - 0.8980335032774945
+Training Accuracy - 0.9070112492918612
+Test Accuracy     - 0.8973051711580481
+
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.890 total time=   0.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.893 total time=   0.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.0s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.0s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.0s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.1s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.892 total time=   0.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.893 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.5s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.5s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.901 total time=   0.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   0.7s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.2s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.3s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.3s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.3s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.3s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   0.8s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.901 total time=   0.8s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   1.4s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.4s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.4s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.5s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   1.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.892 total time=   0.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.894 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.891 total time=   0.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.893 total time=   0.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.0s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.0s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.0s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.0s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.894 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.7s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   1.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.5s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.892 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   1.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   0.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   0.7s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   0.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.3s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.3s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.3s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.3s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.8s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   0.8s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.8s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.4s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.5s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.4s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.901 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.8s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.891 total time=   0.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.892 total time=   0.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.0s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.0s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.0s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.0s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   0.8s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.5s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.5s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.894 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.892 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.8s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.8s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   0.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.3s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.3s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.3s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.3s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.3s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   0.8s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.901 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.8s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.895 total time=   1.4s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.4s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.4s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.890 total time=   0.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.6s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.891 total time=   0.6s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.0s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.0s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.0s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.0s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.0s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.7s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.8s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   0.8s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.5s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   1.5s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.894 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.894 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 2/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 1/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   1.8s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   0.7s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.8s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   0.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.3s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.3s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.3s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.3s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   1.3s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   0.8s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   0.8s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.4s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.4s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.4s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   0.9s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.9s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   0.9s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   0.9s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.6s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.8s
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   1.7s
+[CV 1/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.6s
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 41188 entries, 0 to 41187
+Data columns (total 60 columns):
+ #   Column                         Non-Null Count  Dtype
+---  ------                         --------------  -----
+ 0   age                            41188 non-null  int64
+ 1   campaign                       41188 non-null  int64
+ 2   pdays                          41188 non-null  int64
+ 3   previous                       41188 non-null  int64
+ 4   no_previous_contact            41188 non-null  int64
+ 5   not_working                    41188 non-null  int64
+ 6   job_admin.                     41188 non-null  int64
+ 7   job_blue-collar                41188 non-null  int64
+ 8   job_entrepreneur               41188 non-null  int64
+ 9   job_housemaid                  41188 non-null  int64
+ 10  job_management                 41188 non-null  int64
+ 11  job_retired                    41188 non-null  int64
+ 12  job_self-employed              41188 non-null  int64
+ 13  job_services                   41188 non-null  int64
+ 14  job_student                    41188 non-null  int64
+ 15  job_technician                 41188 non-null  int64
+ 16  job_unemployed                 41188 non-null  int64
+ 17  job_unknown                    41188 non-null  int64
+ 18  marital_divorced               41188 non-null  int64
+ 19  marital_married                41188 non-null  int64
+ 20  marital_single                 41188 non-null  int64
+ 21  marital_unknown                41188 non-null  int64
+ 22  education_basic.4y             41188 non-null  int64
+ 23  education_basic.6y             41188 non-null  int64
+ 24  education_basic.9y             41188 non-null  int64
+ 25  education_high.school          41188 non-null  int64
+ 26  education_illiterate           41188 non-null  int64
+ 27  education_professional.course  41188 non-null  int64
+ 28  education_university.degree    41188 non-null  int64
+ 29  education_unknown              41188 non-null  int64
+ 30  default_no                     41188 non-null  int64
+ 31  default_unknown                41188 non-null  int64
+ 32  default_yes                    41188 non-null  int64
+ 33  housing_no                     41188 non-null  int64
+ 34  housing_unknown                41188 non-null  int64
+ 35  housing_yes                    41188 non-null  int64
+ 36  loan_no                        41188 non-null  int64
+ 37  loan_unknown                   41188 non-null  int64
+ 38  loan_yes                       41188 non-null  int64
+ 39  contact_cellular               41188 non-null  int64
+ 40  contact_telephone              41188 non-null  int64
+ 41  month_apr                      41188 non-null  int64
+ 42  month_aug                      41188 non-null  int64
+ 43  month_dec                      41188 non-null  int64
+ 44  month_jul                      41188 non-null  int64
+ 45  month_jun                      41188 non-null  int64
+ 46  month_mar                      41188 non-null  int64
+ 47  month_may                      41188 non-null  int64
+ 48  month_nov                      41188 non-null  int64
+ 49  month_oct                      41188 non-null  int64
+ 50  month_sep                      41188 non-null  int64
+ 51  day_of_week_fri                41188 non-null  int64
+ 52  day_of_week_mon                41188 non-null  int64
+ 53  day_of_week_thu                41188 non-null  int64
+ 54  day_of_week_tue                41188 non-null  int64
+ 55  day_of_week_wed                41188 non-null  int64
+ 56  poutcome_failure               41188 non-null  int64
+ 57  poutcome_nonexistent           41188 non-null  int64
+ 58  poutcome_success               41188 non-null  int64
+ 59  Loan_Status_label              41188 non-null  int64
+dtypes: int64(60)
+memory usage: 18.9 MB
+88.73458288821988
+11.265417111780131
+0.17296299893172767
+0.9632174419733903
+0.08762260852675537
+age                                9.5
+campaign                          -2.0
+pdays                            999.0
+previous                           0.0
+no_previous_contact                1.0
+not_working                        0.0
+job_admin.                        -1.5
+job_blue-collar                    0.0
+job_entrepreneur                   0.0
+job_housemaid                      0.0
+job_management                     0.0
+job_retired                        0.0
+job_self-employed                  0.0
+job_services                       0.0
+job_student                        0.0
+job_technician                     0.0
+job_unemployed                     0.0
+job_unknown                        0.0
+marital_divorced                   0.0
+marital_married                   -1.5
+marital_single                    -1.5
+marital_unknown                    0.0
+education_basic.4y                 0.0
+education_basic.6y                 0.0
+education_basic.9y                 0.0
+education_high.school              0.0
+education_illiterate               0.0
+education_professional.course      0.0
+education_university.degree       -1.5
+education_unknown                  0.0
+default_no                         1.0
+default_unknown                    0.0
+default_yes                        0.0
+housing_no                        -1.5
+housing_unknown                    0.0
+housing_yes                       -1.5
+loan_no                            1.0
+loan_unknown                       0.0
+loan_yes                           0.0
+contact_cellular                  -1.5
+contact_telephone                 -1.5
+month_apr                          0.0
+month_aug                          0.0
+month_dec                          0.0
+month_jul                          0.0
+month_jun                          0.0
+month_mar                          0.0
+month_may                         -1.5
+month_nov                          0.0
+month_oct                          0.0
+month_sep                          0.0
+day_of_week_fri                    0.0
+day_of_week_mon                    0.0
+day_of_week_thu                    0.0
+day_of_week_tue                    0.0
+day_of_week_wed                    0.0
+poutcome_failure                   0.0
+poutcome_nonexistent               1.0
+poutcome_success                   0.0
+Loan_Status_label                  0.0
+dtype: float64
+
+
+age                               69.5
+campaign                           6.0
+pdays                            999.0
+previous                           0.0
+no_previous_contact                1.0
+not_working                        0.0
+job_admin.                         2.5
+job_blue-collar                    0.0
+job_entrepreneur                   0.0
+job_housemaid                      0.0
+job_management                     0.0
+job_retired                        0.0
+job_self-employed                  0.0
+job_services                       0.0
+job_student                        0.0
+job_technician                     0.0
+job_unemployed                     0.0
+job_unknown                        0.0
+marital_divorced                   0.0
+marital_married                    2.5
+marital_single                     2.5
+marital_unknown                    0.0
+education_basic.4y                 0.0
+education_basic.6y                 0.0
+education_basic.9y                 0.0
+education_high.school              0.0
+education_illiterate               0.0
+education_professional.course      0.0
+education_university.degree        2.5
+education_unknown                  0.0
+default_no                         1.0
+default_unknown                    0.0
+default_yes                        0.0
+housing_no                         2.5
+housing_unknown                    0.0
+housing_yes                        2.5
+loan_no                            1.0
+loan_unknown                       0.0
+loan_yes                           0.0
+contact_cellular                   2.5
+contact_telephone                  2.5
+month_apr                          0.0
+month_aug                          0.0
+month_dec                          0.0
+month_jul                          0.0
+month_jun                          0.0
+month_mar                          0.0
+month_may                          2.5
+month_nov                          0.0
+month_oct                          0.0
+month_sep                          0.0
+day_of_week_fri                    0.0
+day_of_week_mon                    0.0
+day_of_week_thu                    0.0
+day_of_week_tue                    0.0
+day_of_week_wed                    0.0
+poutcome_failure                   0.0
+poutcome_nonexistent               1.0
+poutcome_success                   0.0
+Loan_Status_label                  0.0
+dtype: float64
+X:         age  campaign  ...  poutcome_nonexistent  poutcome_success
+0       56         1  ...                     1                 0
+1       57         1  ...                     1                 0
+2       37         1  ...                     1                 0
+3       40         1  ...                     1                 0
+4       56         1  ...                     1                 0
+...    ...       ...  ...                   ...               ...
+41183   73         1  ...                     1                 0
+41184   46         1  ...                     1                 0
+41185   56         2  ...                     1                 0
+41186   44         1  ...                     1                 0
+41187   74         3  ...                     0                 0
+
+[41188 rows x 59 columns]
+y:  0        0
+1        0
+2        0
+3        0
+4        0
+        ..
+41183    1
+41184    0
+41185    0
+41186    1
+41187    0
+Name: Loan_Status_label, Length: 41188, dtype: int64
+(37069, 59) [[-1.72758640e+00 -5.65627936e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ [ 1.14704553e+00 -5.65627936e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ [ 6.67940207e-01  1.54030961e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ ...
+ [-4.81912564e-01 -5.65627936e-01 -5.15064604e+00 ... -3.41029002e-01
+  -2.50910564e+00  5.42303899e+00]
+ [-2.80724260e-03 -2.05798488e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]
+ [-1.05683895e+00 -2.05798488e-01  1.94557279e-01 ... -3.41029002e-01
+   3.98548385e-01 -1.84398453e-01]]
+(4119, 59) [[ 1.62615085 -0.56562794  0.19455728 ...  2.93230193 -2.50910564
+  -0.18439845]
+ [ 1.43450872 -0.20579849  0.19455728 ... -0.341029    0.39854839
+  -0.18439845]
+ [-0.67355469 -0.56562794  0.19455728 ...  2.93230193 -2.50910564
+  -0.18439845]
+ ...
+ [-0.19444937 -0.56562794  0.19455728 ... -0.341029    0.39854839
+  -0.18439845]
+ [-0.76937576 -0.20579849  0.19455728 ...  2.93230193 -2.50910564
+  -0.18439845]
+ [ 0.38047701 -0.56562794  0.19455728 ... -0.341029    0.39854839
+  -0.18439845]]
+Training Accuracy - 0.8965982357225715
+Test Accuracy     - 0.8977907259043457
+Training Accuracy - 0.8974345140144055
+Test Accuracy     - 0.8975479485311969
+Training Accuracy - 0.8994577679462624
+Test Accuracy     - 0.8973051711580481
+Training Accuracy - 0.8994577679462624
+Test Accuracy     - 0.8970623937848993
+Training Accuracy - 0.8983247457444226
+Test Accuracy     - 0.8980335032774945
+Training Accuracy - 0.9070112492918612
+Test Accuracy     - 0.8973051711580481
+Fitting 5 folds for each of 96 candidates, totalling 480 fits
+Best hyperparameters:  {'gamma': 0.2, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 1, 'reg_lambda': 1}
+Best Estimator:  XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=0.2, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.05, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, random_state=None, ...)
+[CV 2/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   1.7s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.892 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.4s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.7s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.3s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.892 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   2.1s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.5s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.5s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.894 total time=   0.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.895 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.892 total time=   1.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.901 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.4s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.4s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.4s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.5s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.5s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   2.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.6s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.5s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   1.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.3s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.2s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.7s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.7s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.7s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   1.7s
+[CV 5/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.6s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.890 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.893 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.4s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.4s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.6s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.3s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.3s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.895 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.893 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.6s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   2.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.5s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   1.0s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   1.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.894 total time=   1.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   0.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.4s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.4s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.4s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.4s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.1s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.901 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   1.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.896 total time=   1.7s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   2.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.6s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.1s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.1s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.3s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.1s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   1.7s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.7s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 3/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.893 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.891 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.891 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.4s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.6s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.3s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.3s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.3s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.5s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   1.5s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.894 total time=   1.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.894 total time=   1.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.894 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.7s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   1.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   0.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.4s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.4s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.4s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.1s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   0.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.901 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.9s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.6s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.6s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   1.6s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.1s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.895 total time=   1.7s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.898 total time=   1.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.7s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.7s
+[CV 4/5] END gamma=0.2, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.896 total time=   1.6s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.890 total time=   0.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.892 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.894 total time=   0.8s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.891 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.893 total time=   0.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.4s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.6s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.4s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   1.3s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.894 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.893 total time=   0.9s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.895 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.893 total time=   0.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.898 total time=   1.5s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   2.1s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.900 total time=   1.5s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.899 total time=   1.5s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.5s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.0s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.892 total time=   1.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.897 total time=   1.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.894 total time=   1.0s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.895 total time=   1.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   1.8s
+[CV 4/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.8s
+[CV 3/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.900 total time=   1.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.01, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   2.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.900 total time=   0.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   0.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.897 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.896 total time=   1.4s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.5s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.4s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.4s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=3, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.900 total time=   1.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.1s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   0.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   0.9s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.895 total time=   1.6s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.7s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   2.0s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.6s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=4, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.5s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.0s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=0.1, reg_lambda=1;, score=0.898 total time=   1.1s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=0.1;, score=0.897 total time=   1.2s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.5s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=100, reg_alpha=1, reg_lambda=1;, score=0.901 total time=   1.0s
+[CV 4/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=0.1;, score=0.897 total time=   1.7s
+[CV 3/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=0.1, reg_lambda=1;, score=0.899 total time=   1.8s
+[CV 2/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=0.1;, score=0.896 total time=   1.8s
+[CV 1/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.898 total time=   1.9s
+[CV 5/5] END gamma=0.3, learning_rate=0.05, max_depth=5, n_estimators=200, reg_alpha=1, reg_lambda=1;, score=0.899 total time=   1.8s
